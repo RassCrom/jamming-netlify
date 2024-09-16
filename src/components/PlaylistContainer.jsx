@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Playlist from "./PlayList";
+import Playlist from "./Playlist";
 
 import PropTypes from 'prop-types';
 

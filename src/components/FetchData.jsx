@@ -12,7 +12,7 @@ FetchData.propTypes = {
 
 function FetchData({ handleToken, handleSpotify, clientId, token }) {
     const client_id = clientId;
-    const redirect_uri = 'http://localhost:5173/';
+    const redirect_uri = 'https://rasscrom.github.io/jamming-netlify/';
     const scope = 'playlist-modify-public';
 
     useEffect(() => {  

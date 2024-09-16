@@ -1,0 +1,48 @@
+.tracklist_container {
+    background-color: rgba(0, 0, 0, 0.4);
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    width: 500px;
+    min-height: 400px;
+    max-height: 600px;
+
+    margin-left: 100px;
+    margin-bottom: 100px;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.tracklist_items {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    border-bottom: 1px solid rgba(255, 255,255, 0.2);
+    align-items: flex-start;
+}
+
+.tracklist_container h1 {
+    font-size: 2rem;
+}
+
+.add_btn {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.playlist_input {
+    outline: none;
+    padding: 0.3rem;
+    border: 0;
+    border-bottom: 1px solid blue;
+    background-color: #041131;
+    font-size: 1.5rem;
+    cursor: text;
+    transition: all .3s ease;
+}
+
+.playlist_input:hover {
+    border-bottom: 1px solid blueviolet;
+}

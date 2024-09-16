@@ -1,0 +1,45 @@
+form {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+    margin: 4.5rem auto;
+}
+
+.search_music {
+    padding: .6rem;
+
+    background-color: black;
+
+    width: 320px;
+    height: 48px;
+
+    border: 0;
+    border-radius: 12px;
+}
+
+.search_music::placeholder {
+    color: aqua;
+    opacity: .5;
+}
+
+.search_music:focus {
+    outline: none;
+    box-shadow: 0 0 1rem #2b50aa;
+}
+
+.search_btn {
+    align-self: center;
+    padding: .7rem;
+    
+    background-color: black;
+
+    border: 0;  
+    border-radius: 12px;
+    transition: opacity .3s ease;
+    cursor: pointer;
+}
+
+.search_btn:hover {
+    background-color: rgba(0, 0, 0, .7);
+}

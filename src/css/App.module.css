@@ -1,0 +1,6 @@
+.music_list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 6rem;
+}

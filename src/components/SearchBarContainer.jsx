@@ -26,7 +26,7 @@ function SearchBarContainer({ handleFetchedData, handleSpotify, clientId }) {
         }
 
         if (!token) {
-            console.log(token)
+            // console.log(token)
             alert('Authorization token is missing. Please try again.');
             return;
         }
@@ -57,7 +57,7 @@ function SearchBarContainer({ handleFetchedData, handleSpotify, clientId }) {
     //   handleSpotify(target);
     }
 
-    console.log(!clientId, clientId)
+    // console.log(!clientId, clientId)
 
     return (
         <>
